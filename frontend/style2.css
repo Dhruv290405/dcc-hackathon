@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    display: flex;
+    background-color: #EDEDE9;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #D5BDAF;
+    width: 20%;
+    height: 600px;
+    
+}
+
+.profile{
+    margin: 1rem;
+}
+
+.profile button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #F5EBE0;
+    padding: 10px 30px;
+    cursor: pointer;
+
+}
+
+.profile i{
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.profile i, .profile h2{
+    display: inline-block;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.elements button{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #F5EBE0;
+    margin: 10px 0;
+    height: 50px;
+    width: 250px;
+    gap: 10px;
+    /* color: white; */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.elements button i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.container button:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.268);
+}
+
+.con{
+    margin: 30px;
+    width: 80% ;
+    height: 50%;
+}
+
+.row-1{
+    display: inline;
+}
+
+.row-1 i{
+    margin-right: 7px;
+}
+
+.row-2{
+    display: flex;
+}
+
+.row-2 .col-1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #D5BDAF;
+    width: 20%;
+    height: 150px;
+    padding: 0 20px;
+}
+
+.row-2 .col-1 h4{
+    margin: 10px 0;
+    background-color: #F5EBE0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px ;
+}
+
+.row-2 .col-1 ul{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.row-2 .col-1 h4 i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/* Assignment */
+
+.assignment{
+    width: 100%;
+    height: 80%;
+}
+
+.assignment nav{
+    border-bottom: 1px solid black;
+}
+
+.assignment button,.alumni button,.student button{
+    margin: 25px 10px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background-color: #EDEDE9;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.assignment button:hover,.alumni button:hover,student button:hover{
+    transform: translateY(-2px);
+}
+
+.assignment ol{
+    margin: 30px 40px;
+}
+
+/* to-do list------------------------------------------------------------------------------- */
+
+
+  
+.to-do{
+    background: #D5BDAF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 50px;
+}
+  
+h1{
+    color: #333333;
+    margin-bottom: 20px;
+}
+  
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+  
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+  
+#add-btn {
+    padding: 10px 20px;
+    background-color: #F5EBE0;
+    color: 333333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  
+#add-btn:hover {
+    background-color: #F5EBE0;
+}
+  
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+  
+#todo-list li button {
+    background-color: #F5EBE0;
+    color: #333333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  
+#todo-list li button:hover {
+    background-color: #F5EBE0;
+}
+
+.display{
+    display: none;
+}
+
+
+  

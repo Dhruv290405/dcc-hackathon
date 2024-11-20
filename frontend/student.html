@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="profile">   
+            <button><i class="fa-solid fa-user"></i><h2>Student name</h2></button>
+        </div>
+
+        <h3 class="menu">Main Menu</h3>
+
+        <div class="elements">
+            <button id="home" onclick="document.getElementById('page').innerText='Home'"><i class="fa-solid fa-house"></i> <p>Home</p></button>
+            <button id="alumni" onclick="document.getElementById('page').innerText='Alumni'"><i class="fa-solid fa-graduation-cap"></i><p>Alumni</p></button>
+            <button id="assignment" onclick="document.getElementById('page').innerText='Assignment'"><i class="fa-solid fa-bars-progress"></i> <p>Assignments</p></button>
+            <button id="todo-list" onclick="document.getElementById('page').innerText='To-do List'"><i class="fa-solid fa-list-check"></i> <p>To-do</p></button>
+            <button id="leaderboard" onclick="document.getElementById('page').innerText='Leaderboard'"><i class="fa-solid fa-ranking-star"></i><p>Leaderboard</p></button>
+        </div>
+    </div>
+
+    <div class="con">
+        <div class="row-1">
+            <i class="fa-solid fa-bars"></i><b id="page">Home</b>
+        </div>
+    
+
+        <!-- home ---------------------------------------------------------------------------------------------------------->
+
+        <div class="row-2">
+            <div class="col-1 ">
+                <h4>Alumni name <i class="fa-solid fa-user-graduate"></i></h4>
+                <h5>
+                    Assignments
+                </h5>
+                <ul>
+                    <li>Assignment 1</li>
+                    <li>Assignment 2</li>
+                    <li>Assignment 3</li>
+                </ul>
+                
+            </div>
+
+            <div class="col-1">
+                <h4>Alumni name <i class="fa-solid fa-user-graduate"></i></h4>
+                <h5>
+                    Assignments
+                </h5>
+                <ul>
+                    <li>Assignment 1</li>
+                    <li>Assignment 2</li>
+                    <li>Assignment 3</li>
+                </ul>
+                
+            </div>
+
+            <div class="col-1">
+                <h4>Alumni name <i class="fa-solid fa-user-graduate"></i></h4>
+                <h5>
+                    Assignments
+                </h5>
+                <ul>
+                    <li>Assignment 1</li>
+                    <li>Assignment 2</li>
+                    <li>Assignment 3</li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+        <!-- assignment----------------------------------------------------------------- -->
+
+
+        <div class="assignment display">
+            <nav>
+                <button>Assignment</button>
+                <button>Pending</button>
+                <button>Done</button>
+            </nav>
+
+            <ol>
+                <li><button>Assignment 1</button></li>
+                <li><button>Assignment 2</button></li>
+                <li><button>Assignment 3</button></li>
+                <li><button>Assignment 4</button></li>
+                <li><button>Assignment 5</button></li>
+            </ol>
+        </div>
+
+        <!-- Alumni---------------------------------------------------------------------------- -->
+
+        <div class="alumni display">
+            <ol>
+                <li><button>Alumni name</button></li>
+                <li><button>Alumni name</button></li>
+                <li><button>Alumni name</button></li>
+                <li><button>Alumni name</button></li>
+                <li><button>Alumni name</button></li>
+            </ol>
+        </div>
+
+        <!-- to-do list-------------------------------------------------------------------------- -->
+
+        <div class="to-do display">
+            <h1>To-Do List</h1>
+            <div class="input-container">
+            <input type="text" id="todo-input" placeholder="Enter a new task...">
+            <button id="add-btn">Add</button>
+            </div>
+            <ul id="todo-list"></ul>
+        </div>
+
+        
+        
+        <!-- leaderboard------------------------------------------------------------------------------------- -->
+
+
+        <div class="leaderboard display">
+
+        </div>
+    
+    </div>
+
+
+
+
+    <script src="script2.js"></script>
+
+
+</body>
+</html>
